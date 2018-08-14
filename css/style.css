@@ -1,0 +1,77 @@
+/*GERAL*/
+body{
+  color: #5D1277;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+ 
+h1, h3, h4, li{
+  color: purple;
+}
+
+a{
+  text-decoration: none;
+    font-size: 14px;
+}
+/*CABEÇALHO*/
+.cabecalho{
+    text-align: center;
+}
+
+/*CONTEUDO*/
+.conteudo{
+  margin: auto;
+  width: 90%;
+  margin-left: 130px;
+}
+
+.conteudo__imagem{
+  vertical-align: top;
+  display: inline-block;
+  padding: 20px;
+}
+
+.conteudo__imagem img{
+  width: 400px;  
+}
+
+.conteudo__listas coluna__metade{
+  width: 40%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  margin: 0 auto;
+}
+
+li{
+  padding:10px;
+  font-size: 14px;
+  text-align: left;
+}
+
+/*BOTOES*/
+
+.conteudo__btn{
+  vertical-align: middle;
+  padding: 10px;
+  margin: 20px 0 20px 90px;
+  width: 200px;
+  display: block;
+  text-align: center;
+ }
+
+.btn__roxo {
+  background-color: purple;
+  color: white;
+ }
+
+.btn__roxo:hover {
+ background-color: white;
+ color: #5D1277;
+ transition: all .5s
+}
+
+.btn__transparente{
+  border: 1px solid purple;
+  background-color: transparent;
+  }
+
